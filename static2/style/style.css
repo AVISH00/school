@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playfair+Display&family=Poppins:wght@200&family=Sevillana&display=swap');
+body{
+    padding: 0px;
+    margin: 0px 0px;
+}
+.navbar_section{
+    display: flex;
+    background-color: antiquewhite; 
+    justify-content: space-between;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+   margin: 0px;
+   display: flex;
+   height: 2em;
+   align-items: center;
+   justify-content: center;
+}
+.search input{
+    padding: 0px;
+    margin: 0.6em;
+    font-size: 20px;
+}
+.navbar a{
+    list-style: none;
+    padding: 0px 5px;
+    text-decoration: none;
+    color: blueviolet;
+    font-family: 'Anton', sans-serif;
+}
+.navbar li:hover{
+    background-color: grey;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.heading::before{
+    content: "";
+    position: absolute;
+    top: 2em;
+    background: url("../img/school.jfif")  center/cover ;
+    z-index: -1;
+    width: 100%;
+    height: 20rem;
+    opacity: 0.8;
+}
+.heading{
+    margin: 0px;
+    height: 15rem;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    color: #076ce9;
+    
+}
+
+.mission::before{
+    content: "";
+    position: absolute;
+    top:17rem;
+    background: url("../img/path.jfif") center/cover;
+    z-index: -1;
+    height:18rem;
+    width: 100%;
+    opacity: 0.8;
+}
+.mission{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+#hidestatus{
+    display: none;
+}
+
+.footer{
+    background-color: greenyellow;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
